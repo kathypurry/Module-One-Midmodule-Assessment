@@ -2,10 +2,13 @@
 * @param {number} num - The number to iterate up to
 * @param {number[]} - An array of even numbers from 0 to {num}
 */
-function evenNumbers() {
+function evenNumbers(num) {
 
+  for ( let i = 0; 0 <= num; i += 2){
+    arr.push(i)
 }
 
+}
 /** Returns all multiples of a given number up to 1000
  * Example if num was 3 the output would be [0, 3, 6, 9, 12, ...etc ] until 1000
 * @param {number} num - The number to find multiples of

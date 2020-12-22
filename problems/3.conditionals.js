@@ -2,15 +2,21 @@
 * @param {number} temp - The current temperature
 * @returns {string} - A message about the temperature
 */
-function temperatureMessage() {
+function temperatureMessage(temp) {
+  if (temp < 32){
+    return "It's freezing!"
+  }
+   else (temp > 32)
+     return "It's alright"
+  }
 
-}
 
 /** Returns "It's freezing!" if the temperature is below 32, and "It's alright" otherwise. The implementation must use a ternary.
 * @param {number} temp - The current temperatur
 * @returns {string} - A message about the temperature
 */
-function temperatureMessageUsingTernary() {
+function temperatureMessageUsingTernary(temp) {
+  return temp <32 ? "It's freezing!" : "It's alright"
 
 }
 
